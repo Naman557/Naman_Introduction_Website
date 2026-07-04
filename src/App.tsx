@@ -146,9 +146,6 @@ const App: React.FC = () => {
                   <span style={styles.eduPeriod}>Graduated 2021</span>
                   <h3 style={styles.degreeTitle}>Bachelor of Engineering (B.E.)</h3>
                   <h4 style={styles.instituteName}>Siddaganga Institute of Technology</h4>
-                  <p style={styles.eduDesc}>
-                    Focused on Computer Science foundations, database engineering, OOP concepts, algorithms, and software development methodologies.
-                  </p>
                 </div>
               </div>
             </div>

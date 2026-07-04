@@ -6,7 +6,7 @@ export const Experience: React.FC = () => {
     {
       role: 'Project Engineer (Software)',
       company: 'Rockwell Automation',
-      period: '2022 - Present',
+      period: '2023 - Present',
       bullets: [
         {
           title: 'Microservices Architecture',
@@ -29,7 +29,7 @@ export const Experience: React.FC = () => {
     {
       role: 'Graduate Engineer Trainee',
       company: 'Rockwell Automation',
-      period: '2020 - 2022',
+      period: '2021 - 2023',
       bullets: [
         {
           title: 'Feature Delivery',

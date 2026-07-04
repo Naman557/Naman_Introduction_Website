@@ -113,7 +113,7 @@ const App: React.FC = () => {
       {/* Main Sections */}
       <main>
         <Hero />
-        
+
         <div className="reveal">
           <About />
         </div>
@@ -143,7 +143,7 @@ const App: React.FC = () => {
                   <GraduationCap size={32} style={{ color: '#00f2fe' }} />
                 </div>
                 <div style={{ textAlign: 'left' }}>
-                  <span style={styles.eduPeriod}>Graduated 2020</span>
+                  <span style={styles.eduPeriod}>Graduated 2021</span>
                   <h3 style={styles.degreeTitle}>Bachelor of Engineering (B.E.)</h3>
                   <h4 style={styles.instituteName}>Siddaganga Institute of Technology</h4>
                   <p style={styles.eduDesc}>

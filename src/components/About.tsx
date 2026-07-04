@@ -40,7 +40,7 @@ export const About: React.FC = () => {
           <div className="glass-card" style={styles.bioCard}>
             <h3 style={styles.bioTitle}>Full-Stack Developer & Cloud Architect</h3>
             <p style={styles.bioText}>
-              I am a Senior-level Full-Stack Developer with over 4 years of experience. My core expertise lies in architecting <strong>Cloud-Native solutions</strong> and managing the full software development lifecycle. I specialize in designing high-performance backend APIs using <strong>C# and .NET Core</strong> and building responsive frontends with <strong>Angular & React</strong>.
+              I am a Full-Stack Developer with over 4 years of experience. My core expertise lies in architecting <strong>Cloud-Native solutions</strong> and managing the full software development lifecycle. I specialize in designing high-performance backend APIs using <strong>C# and .NET Core</strong> and building responsive frontends with <strong>Angular & React</strong>.
             </p>
             <p style={styles.bioText}>
               My engineering philosophy revolves around writing clean, testable code adhering to <strong>SOLID</strong> and <strong>Domain-Driven Design (DDD)</strong> principles. I am passionate about optimizing backend architectures, containerization, and automation to streamline releases and lower deployment friction.

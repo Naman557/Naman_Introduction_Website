@@ -3,7 +3,7 @@ import { Terminal, ArrowDown, ExternalLink } from 'lucide-react';
 
 export const Hero: React.FC = () => {
   const titles = [
-    'Senior Full-Stack Developer',
+    'Full-Stack Developer',
     'Cloud-Native Architect',
     'Microservices Specialist',
     '.NET Core Expert'
@@ -70,7 +70,7 @@ export const Hero: React.FC = () => {
             <h1 style={styles.greeting}>
               Hello, I'm <span className="text-gradient-cyan">Naman Srivastava</span>
             </h1>
-            
+
             <h2 style={styles.subtitle}>
               A <span style={styles.typingText}>{displayedText}</span>
               <span style={styles.cursor}>|</span>

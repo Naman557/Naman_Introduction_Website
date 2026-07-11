@@ -171,6 +171,11 @@ export const Contact: React.FC = () => {
                   {isSubmitting ? 'Sending Message...' : 'Send Message'}
                   <Send size={16} />
                 </button>
+                {error && (
+                  <p style={{ color: '#ff6b6b', fontSize: '0.9rem', marginTop: '0.5rem' }}>
+                    {error}
+                  </p>
+                )}
               </form>
             )}
           </div>

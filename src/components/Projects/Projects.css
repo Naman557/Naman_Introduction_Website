@@ -1,0 +1,113 @@
+.projects-section {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.projects-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 3.5rem;
+}
+
+.projects-titleWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.projects-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.projects-divider {
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, #00f2fe, #7f00ff);
+  border-radius: 2px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.projects-card {
+  padding: 2.2rem 2rem;
+  text-align: left;
+}
+
+.projects-cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.75rem;
+}
+
+.projects-iconWrapper {
+  padding: 10px;
+  border-radius: 12px;
+  border-width: 1px;
+  border-style: solid;
+  background: rgba(255, 255, 255, 0.02);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-linkIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease;
+}
+
+.projects-projectTitle {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.projects-projectDesc {
+  color: #9ca3af;
+  font-size: 0.98rem;
+  line-height: 1.6;
+  margin-bottom: 1.75rem;
+  flex-grow: 1;
+}
+
+.projects-stackContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.projects-techBadge {
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: rgba(0, 242, 254, 0.06);
+  border: 1px solid rgba(0, 242, 254, 0.15);
+  color: #00f2fe;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.project-card {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.project-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+.project-card:hover .projects-linkIcon {
+  color: #ffffff;
+}

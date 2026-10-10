@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import './CanvasBackground.css';
 
 interface Particle {
   x: number;
@@ -133,16 +134,7 @@ export const CanvasBackground: React.FC = () => {
   return (
     <canvas
       ref={canvasRef}
-      style={{
-        position: 'fixed',
-        top: 0,
-        left: 0,
-        width: '100%',
-        height: '100%',
-        zIndex: 0,
-        pointerEvents: 'none',
-        opacity: 0.85,
-      }}
+      className="canvas-background"
     />
   );
 };

@@ -1,0 +1,112 @@
+.about-section {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.about-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 3.5rem;
+}
+
+.about-titleWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.about-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.about-divider {
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, #00f2fe, #7f00ff);
+  border-radius: 2px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 2.5rem;
+  align-items: stretch;
+}
+
+@media (max-width: 968px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.about-bioCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  height: 100%;
+}
+
+.about-bioTitle {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  color: #00f2fe;
+}
+
+.about-bioText {
+  color: #9ca3af;
+  font-size: 1.05rem;
+  line-height: 1.75;
+  margin-bottom: 1.25rem;
+}
+
+.about-statsCol {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.about-statCard {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 1.5rem 2rem;
+  text-align: left;
+}
+
+.about-statIcon {
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-statContent {
+  flex: 1;
+}
+
+.about-statValue {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+.about-statLabel {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #9ca3af;
+  margin-bottom: 0.5rem;
+}
+
+.about-statDesc {
+  font-size: 0.9rem;
+  color: #6b7280;
+  line-height: 1.5;
+}

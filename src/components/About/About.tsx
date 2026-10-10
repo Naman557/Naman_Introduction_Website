@@ -6,7 +6,7 @@ export const About: React.FC = () => {
   const stats = [
     {
       icon: <Award size={28} className="text-gradient-cyan" style={{ color: '#00f2fe' }} />,
-      value: '4+ Years',
+      value: '5' + ' ' + 'Years',
       label: 'Professional Experience',
       desc: 'Delivering high-availability enterprise applications at Rockwell Automation.',
     },
@@ -41,7 +41,7 @@ export const About: React.FC = () => {
           <div className="glass-card about-bioCard">
             <h3 className="about-bioTitle">Full-Stack Developer & Cloud Architect</h3>
             <p className="about-bioText">
-              I am a Full-Stack Developer with over 4 years of experience. My core expertise lies in architecting <strong>Cloud-Native solutions</strong> and managing the full software development lifecycle. I specialize in designing high-performance backend APIs using <strong>C# and .NET Core</strong> and building responsive frontends with <strong>Angular & React</strong>.
+              I am a Full-Stack Developer with 5 years of experience. My core expertise lies in architecting <strong>Cloud-Native solutions</strong> and managing the full software development lifecycle. I specialize in designing high-performance backend APIs using <strong>C# and .NET Core</strong> and building responsive frontends with <strong>Angular & React</strong>.
             </p>
             <p className="about-bioText">
               My engineering philosophy revolves around writing clean, testable code adhering to <strong>SOLID</strong> and <strong>Domain-Driven Design (DDD)</strong> principles. I am passionate about optimizing backend architectures, containerization, and automation to streamline releases and lower deployment friction.

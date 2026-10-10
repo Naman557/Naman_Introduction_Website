@@ -55,12 +55,12 @@ export const Contact: React.FC = () => {
       value: 'linkedin.com/in/naman-srivastava-9b8a84184',
       href: 'https://linkedin.com/in/naman-srivastava-9b8a84184',
     },
-    {
-      icon: <Phone size={22} style={{ color: '#e100ff' }} />,
-      label: 'Phone',
-      value: '+91 8310766557',
-      href: 'tel:+918310766557',
-    },
+    // {
+    //   icon: <Phone size={22} style={{ color: '#e100ff' }} />,
+    //   label: 'Phone',
+    //   value: '+91 8310766557',
+    //   href: 'tel:+918310766557',
+    // },
   ];
 
   return (

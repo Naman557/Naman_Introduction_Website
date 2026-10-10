@@ -18,7 +18,7 @@ export const Hero: React.FC = () => {
   // 3D Avatar Cursor Tracking State
   const avatarCardRef = useRef<HTMLDivElement>(null);
   const heroRef = useRef<HTMLElement>(null);
-  
+
   const [trackingData, setTrackingData] = useState({
     rotateX: 0,
     rotateY: 0,
@@ -76,13 +76,13 @@ export const Hero: React.FC = () => {
 
       const distance = Math.sqrt(deltaX * deltaX + deltaY * deltaY);
       const angle = Math.round((Math.atan2(deltaY, deltaX) * (180 / Math.PI) + 360) % 360);
-      
+
       const proximityThreshold = 450; // pixels proximity
       const isNear = distance < proximityThreshold;
 
       // Calculate tilt intensity based on distance
       const maxTilt = 25; // degrees
-      
+
       // Target rotation values
       const targetRotateY = (deltaX / (window.innerWidth / 2)) * maxTilt * (isNear ? 1.2 : 0.3);
       const targetRotateX = -(deltaY / (window.innerHeight / 2)) * maxTilt * (isNear ? 1.2 : 0.3);
@@ -137,7 +137,7 @@ export const Hero: React.FC = () => {
 
       <div className="container hero-container">
         <div className="hero-layoutGrid">
-          
+
           {/* LEFT SIDE: INTRODUCTION */}
           <div className="hero-leftIntro">
             <div className="hero-badgePill">
@@ -155,7 +155,7 @@ export const Hero: React.FC = () => {
             </h2>
 
             <p className="hero-introBio">
-              Full-Stack Software Engineer with <strong>4+ years of enterprise experience</strong> at <strong>Rockwell Automation</strong>. I specialize in building high-availability cloud-native microservices, optimizing low-latency backend APIs with <strong>.NET Core</strong>, and crafting modern web interfaces with <strong>React & Angular</strong>.
+              Full-Stack Software Engineer with <strong>5 years of enterprise experience</strong> at <strong>Rockwell Automation</strong>. I specialize in building high-availability cloud-native microservices, optimizing low-latency backend APIs with <strong>.NET Core</strong>, and crafting modern web interfaces with <strong>React & Angular</strong>.
             </p>
 
             <div className="hero-highlightsList">
@@ -284,11 +284,11 @@ export const Hero: React.FC = () => {
 
               <div className="hero-terminalBody">
                 <pre className="hero-jsonCode">
-{`{
+                  {`{
   "name": "Naman Srivastava",
   "title": "Full-Stack Engineer",
   "company": "Rockwell Automation",
-  "experience": "4+ Years",
+  "experience": "5 Years",
   "education": "B.E. SIT (2021)",
   "location": "India",
   "architecture": [

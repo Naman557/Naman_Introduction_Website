@@ -309,7 +309,7 @@ export const Hero: React.FC = () => {
             {/* Quick Stats Grid */}
             <div className="hero-quickStatsGrid">
               <div className="hero-statBox">
-                <span className="hero-statNumber text-gradient-cyan">4+</span>
+                <span className="hero-statNumber text-gradient-cyan">5</span>
                 <span className="hero-statLabel">Years Experience</span>
               </div>
               <div className="hero-statBox">
